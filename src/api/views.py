@@ -1,8 +1,8 @@
 from rest_framework import permissions
 from rest_framework.viewsets import ModelViewSet
 
-from src.api.serializers import ProductSerializer
-from src.core.models import Product
+from api.serializers import ProductSerializer
+from core.models import Product
 
 
 class ProductViewSet(ModelViewSet):
